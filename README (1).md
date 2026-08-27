@@ -45,3 +45,11 @@ CONCLUSION:
 From this practical, we understood the difference between iterative and recursive approaches for solving a problem. Both methods are useful for calculating factorials, and this practical helped us understand how loops and recursion can be used to solve the same problem. CONCLUSION:
 
 From this practical, we understood the difference between iterative and recursive approaches for solving a problem. Both methods are useful for calculating factorials, and this practical helped us understand how loops and recursion can be used to solve the same problem.
+
+SUMAMRY OF PRACT-7:
+
+The Coin Change Problem is solved using Dynamic Programming to find the minimum number of coins needed to make a given amount. The program takes the number of coins, coin values, and target amount as input from the user. It creates a dynamic programming table where each position stores the minimum number of coins required to form that particular amount. The program checks all available coins and updates the table with the best possible solution. If the amount cannot be formed using the given coins, the program returns -1. The algorithm has a time complexity of O(n × amount) and a space complexity of O(amount).
+
+CONCULSION:
+
+Dynamic Programming makes the Coin Change Problem easier and faster to solve. The program gives the minimum number of coins or returns -1 if the amount cannot be made.
