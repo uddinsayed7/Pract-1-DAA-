@@ -53,3 +53,22 @@ The Coin Change Problem is solved using Dynamic Programming to find the minimum 
 CONCULSION:
 
 Dynamic Programming makes the Coin Change Problem easier and faster to solve. The program gives the minimum number of coins or returns -1 if the amount cannot be made.
+
+# practical-5
+0/1 Knapsack Problem Using Dynamic Programming
+
+This Python program solves the 0/1 Knapsack Problem using Dynamic Programming. The program takes the number of items, weight and value of each item, and the maximum capacity of the knapsack as input. It then finds the best combination of items that gives the maximum value without exceeding the given capacity.
+
+The program uses a DP table to calculate the maximum value for different items and capacities. After finding the maximum value, it also finds and displays the items selected for the knapsack. The program measures the execution time using Python's time.perf_counter() function.
+
+For example, if there are 4 items with weights 2, 3, 4, 5 and values 3, 4, 5, 6, and the capacity is 5, the program selects item 1 and item 2. Their total weight is 5 and their total value is 7. Therefore, the maximum value is 7.
+
+The time complexity of this program is O(n × capacity), where n is the number of items. The space complexity is also O(n × capacity) because the program uses a two-dimensional DP table.
+
+How to Run
+
+First, make sure Python is installed on your computer. Save the program as knapsack.py and run it using Python. Enter the item details and knapsack capacity when asked. The program will display the maximum value, selected items, and execution time.
+
+# Conclusion
+
+This program shows how Dynamic Programming can be used to solve the 0/1 Knapsack Problem efficiently. It helps us find the maximum value while keeping the total weight within the given capacity. The program also shows which items should be selected to get the best result.
