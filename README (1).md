@@ -80,3 +80,11 @@ Chain Matrix Multiplication using Dynamic Programming finds the optimal order of
 CONCLUSION:
 
 Chain Matrix Multiplication using Dynamic Programming efficiently finds the best order of matrix multiplication with minimum computation cost. It reduces unnecessary calculations by storing previously solved subproblems. The method is efficient, systematic, and has a time complexity of O(n³).
+
+SUMMARY OF PRACTICAL - 8
+
+Graph traversal is an important technique used to visit all the vertices of a graph systematically. DFS explores a graph deeply by visiting a vertex and then recursively visiting its unvisited neighbors. BFS explores the graph level by level using a queue data structure. Both DFS and BFS have a time complexity of O(V + E), where V is the number of vertices and E is the number of edges. These searching techniques are widely used in path finding, network analysis, and many other computer science applications.
+
+CONCLUSION :
+
+The graph traversal program successfully implements both DFS and BFS searching techniques using Python. DFS uses a depth-based approach, while BFS visits vertices level by level. Both methods efficiently traverse the vertices and edges of a graph. The program accepts user input, making it flexible for different graph structures and starting vertices. Thus, DFS and BFS are useful and fundamental techniques for solving various graph-based problems.
